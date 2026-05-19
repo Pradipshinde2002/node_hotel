@@ -16,7 +16,7 @@ const menuItemSchema=new mongoose.Schema({
     ,is_drink:{
         type:Boolean,
         required:true
-    },
+    },//jjfj
     ingredients:{
         type:String,
         enum:["chicken wings","spices","sauce"],
